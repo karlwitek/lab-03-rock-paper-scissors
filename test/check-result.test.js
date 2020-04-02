@@ -16,3 +16,18 @@ test('test the checkResult function', function(assert) {
     // Make assertions about what is expected valid result
     assert.equal(expected, result);
 });
+
+
+test('test the checkResult function', function(assert) {
+    //Arrange
+    // Set up your parameters and expectations
+    const player = 'Scissors';
+    const computer = 'Paper';
+    const expected = 'Win';
+    //Act 
+    // Call the function you're testing and set the result to a const
+    const result = checkResult(player, computer);
+    //Assert
+    // Make assertions about what is expected valid result
+    assert.equal(expected, result);
+});

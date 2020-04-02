@@ -5,14 +5,14 @@ export const getRandomThrow = () => {
 
 export const getCompThrow = () => {
     if (getRandomThrow() === 0)
-        return 'Rock';
+        return 'rock';
     else if (getRandomThrow() === 1)
-        return 'Paper';
-    else return 'Scissors';   
+        return 'paper';
+    else return 'scissors';   
 };
 
-export const checkResult = () => {
-    console.log('were in the getResults function');
+export const checkResult = (player, computer) => {
+    if (player === 'rock' && computer === 'paper')
 
 };
 
