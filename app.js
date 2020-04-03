@@ -1,4 +1,4 @@
-import { getRandomThrow, checkResult } from './my-functions.js';
+import { checkResult } from './my-functions.js';
 import { getCompThrow } from './my-functions.js';
 
 
@@ -27,9 +27,7 @@ function displayAll() {
 playButton.addEventListener('click', () => {
     const radioSelection = document.querySelector('input[type = radio]:checked');
     let playerChoice = radioSelection.value;
-    console.log('player is', playerChoice);
     const compChoice = getCompThrow();
-    console.log('computer is ',compChoice);
     
     // whoWins: player point of view
     
