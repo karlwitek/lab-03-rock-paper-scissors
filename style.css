@@ -1,0 +1,33 @@
+body {
+    background-color: bisque;
+}
+
+
+img {
+    width: 250px;
+    height: 200px;
+}
+
+p {
+    display: inline;
+    height: 80px;
+    width: 100px;
+}
+
+#play-button {
+    height: 50px;
+    width: 100px;
+    margin-top: 40px;
+}
+
+.button-space {
+    width:  20px;
+    height: 20px;
+}
+
+#r-p-s {
+    width: 300px;
+}
+
+
+
